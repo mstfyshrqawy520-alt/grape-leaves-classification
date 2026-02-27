@@ -1,128 +1,111 @@
-🍇 Grape Leaves Multi-Class Classification
-Transfer Learning Based Deep Learning System
-🚀 Overview
+<h1 align="center">🍇 Grape Leaves Multi-Class Classification</h1>
+<h3 align="center">Transfer Learning Based Deep Learning System</h3>
 
-This project presents a production-oriented deep learning system for multi-class classification of grape leaf conditions using Transfer Learning techniques.
+<hr/>
 
-The objective is to detect and classify different grape leaf categories based on image data using pre-trained convolutional neural networks such as ResNet50 and MobileNet.
+<h2>🚀 Project Overview</h2>
+<p>
+This project presents a production-oriented deep learning system for multi-class classification 
+of grape leaf conditions using Transfer Learning techniques.
+</p>
 
-The repository demonstrates a complete deep learning workflow including data preprocessing, augmentation, model training, evaluation, and model optimization.
+<p>
+Pre-trained Convolutional Neural Networks such as <b>ResNet50</b> and <b>MobileNet</b> were fine-tuned 
+to classify grape leaf images into multiple categories.
+</p>
 
-🎯 Project Objectives
+<hr/>
 
-Build a robust image classification system
+<h2>🎯 Objectives</h2>
+<ul>
+  <li>Build a robust deep learning classification pipeline</li>
+  <li>Apply transfer learning using state-of-the-art CNN architectures</li>
+  <li>Optimize training through augmentation techniques</li>
+  <li>Evaluate performance using structured metrics</li>
+</ul>
 
-Apply Transfer Learning using state-of-the-art CNN architectures
+<hr/>
 
-Compare model performance across experiments
+<h2>🧠 Model Architecture</h2>
+<p><b>Implemented Models:</b></p>
+<ul>
+  <li>ResNet50 (Pre-trained)</li>
+  <li>MobileNet (Pre-trained)</li>
+</ul>
 
-Improve accuracy using augmentation and hyperparameter tuning
+<p>
+Transfer learning was applied by freezing base layers and training a custom classification head.
+</p>
 
-Provide a reproducible deep learning pipeline
+<hr/>
 
-🧠 Methodology
-1️⃣ Data Preparation
+<h2>📊 Performance Summary</h2>
 
-Image preprocessing
+<table border="1" cellpadding="10">
+<tr>
+<th>Metric</th>
+<th>Score</th>
+</tr>
+<tr>
+<td>Training Accuracy</td>
+<td><b>97.6%</b></td>
+</tr>
+<tr>
+<td>Validation Accuracy</td>
+<td><b>91.0%</b></td>
+</tr>
+<tr>
+<td>Test Accuracy</td>
+<td><b>88.0%</b></td>
+</tr>
+</table>
 
-Resizing and normalization
+<hr/>
 
-Train / Validation / Test split
+<h2>⚙️ Installation</h2>
 
-2️⃣ Data Augmentation
-
-Horizontal & vertical flipping
-
-Rotation
-
-Brightness adjustment
-
-Scaling
-
-Augmentation strategies were adjusted according to the selected model architecture.
-
-3️⃣ Model Architecture
-
-The following models were implemented:
-
-ResNet50 (Pre-trained)
-
-MobileNet (Pre-trained)
-
-Transfer learning was applied by freezing base layers and training custom classification heads.
-
-📊 Model Performance
-
-The trained models achieved competitive performance across evaluation datasets:
-
-Training Accuracy: 97.6%
-
-Validation Accuracy: 91.0%
-
-Test Accuracy: 88.0%
-
-Increasing the number of training epochs showed measurable performance improvements during experimentation.
-
-📂 Project Structure
-grape-leaves-transfer-learning/
-│
-├── MLutiClassification_GrapeLeaves.ipynb
-├── checkpoints/
-├── results/
-├── README.md
-└── requirements.txt
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone <your-repository-link>
+<pre>
+git clone &lt;your-repo-link&gt;
 cd grape-leaves-transfer-learning
-2️⃣ Install Dependencies
 pip install -r requirements.txt
-3️⃣ Run the Notebook
 jupyter notebook
+</pre>
 
-Open the notebook file and execute the training pipeline.
+<hr/>
 
-🛠 Technology Stack
+<h2>🛠 Technology Stack</h2>
+<ul>
+  <li>Python</li>
+  <li>TensorFlow / Keras</li>
+  <li>NumPy</li>
+  <li>Pandas</li>
+  <li>OpenCV</li>
+  <li>Matplotlib</li>
+</ul>
 
-Python
+<hr/>
 
-TensorFlow / Keras
+<h2>💡 Engineering Highlights</h2>
+<ul>
+  <li>Transfer Learning Implementation</li>
+  <li>Structured Training Pipeline</li>
+  <li>Model Comparison Experiments</li>
+  <li>Performance Optimization</li>
+</ul>
 
-NumPy
+<hr/>
 
-Pandas
+<h2>🔮 Future Improvements</h2>
+<ul>
+  <li>Hyperparameter tuning</li>
+  <li>Model ensembling</li>
+  <li>Deployment as REST API</li>
+  <li>Cloud integration</li>
+</ul>
 
-Matplotlib
+<hr/>
 
-Seaborn
-
-OpenCV
-
-💡 Engineering Highlights
-
-Practical application of Transfer Learning
-
-Comparative model experimentation
-
-Structured training and evaluation pipeline
-
-Visual performance analysis
-
-Scalable architecture for deployment
-
-🔮 Future Improvements
-
-Hyperparameter tuning with grid search
-
-Model ensembling
-
-Deployment as REST API
-
-Cloud deployment
-
-Integration with real-time agricultural monitoring systems
-
-👨‍💻 Author
-
-Mostafa Sharqawy
-AI Engineer | Deep Learning | Computer Vision | NLP
+<h3 align="center">👨‍💻 Developed by Mostafa Sharqawy</h3>
+<p align="center">
+AI Engineer | Deep Learning | Computer Vision
+</p>
